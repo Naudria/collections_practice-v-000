@@ -32,5 +32,5 @@ end
 
 def add_s(array)
   arr = []
-  array.each_with_index {|element, index|}
+  array.each_with_index {|element, index| arr << element + "s" if index !=1}
 end
