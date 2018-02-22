@@ -29,3 +29,7 @@ end
 def sum_array(array)
   array.inject {|previous, current| previous + current}
 end
+
+def add_s(array)
+
+end
